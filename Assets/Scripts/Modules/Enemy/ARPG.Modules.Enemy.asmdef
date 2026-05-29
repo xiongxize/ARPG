@@ -1,0 +1,17 @@
+{
+    "name": "ARPG.Modules.Enemy",
+    "rootNamespace": "ARPG.Modules.Enemy",
+    "references": [
+        "ARPG.Core",
+        "ARPG.Events"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

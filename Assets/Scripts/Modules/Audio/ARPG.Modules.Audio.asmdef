@@ -1,0 +1,21 @@
+{
+    "name": "ARPG.Modules.Audio",
+    "rootNamespace": "ARPG.Modules.Audio",
+    "references": [
+        "ARPG.Core",
+        "ARPG.Interfaces",
+        "ARPG.Events",
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "Sirenix.OdinInspector.Modules.Unity.Addressables"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

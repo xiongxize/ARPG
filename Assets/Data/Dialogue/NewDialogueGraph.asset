@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746fd4b776fe7c347b7a2d61c9d8bbb2, type: 3}
+  m_Name: NewDialogueGraph
+  m_EditorClassIdentifier: 
+  nodes:
+  - rid: 954093567857131581
+  - rid: 954093567857131582
+  - rid: 954093567857131584
+  - rid: 954093567857131587
+  - rid: 954093567857131588
+  links:
+  - sourceNodeId: 0f192774-a1ed-4435-b089-8742517f60a7
+    sourcePortName: Output
+    targetNodeId: b7b42b1c-be34-4648-9b1e-6bda8f7c33bf
+    targetPortName: Input
+  - sourceNodeId: b7b42b1c-be34-4648-9b1e-6bda8f7c33bf
+    sourcePortName: Output
+    targetNodeId: 4493eaea-3f0a-405e-9939-c9fea8d7519d
+    targetPortName: Input
+  - sourceNodeId: 4493eaea-3f0a-405e-9939-c9fea8d7519d
+    sourcePortName: Choice_0
+    targetNodeId: e266ae08-ae84-4e70-ba77-11e9ba0abf71
+    targetPortName: Input
+  - sourceNodeId: 4493eaea-3f0a-405e-9939-c9fea8d7519d
+    sourcePortName: Choice_1
+    targetNodeId: b3639819-e7ac-4bbe-b9cd-e2ef7232e37e
+    targetPortName: Input
+  variables: []
+  startNodeId: 0f192774-a1ed-4435-b089-8742517f60a7
+  references:
+    version: 2
+    RefIds:
+    - rid: 954093567857131581
+      type: {class: StartNodeData, ns: ARPG.Data.Dialogue, asm: ARPG.Modules.Dialogue}
+      data:
+        guid: 0f192774-a1ed-4435-b089-8742517f60a7
+        position: {x: 200, y: 200}
+        nodeName: "\u5BF9\u8BDD\u5F00\u59CB"
+    - rid: 954093567857131582
+      type: {class: DialogueLineNodeData, ns: ARPG.Data.Dialogue, asm: ARPG.Modules.Dialogue}
+      data:
+        guid: b7b42b1c-be34-4648-9b1e-6bda8f7c33bf
+        position: {x: 453.6, y: 200}
+        nodeName: 
+        speakerName: 
+        dialogueText: 
+        voiceOverClip: {fileID: 0}
+    - rid: 954093567857131584
+      type: {class: EndNodeData, ns: ARPG.Data.Dialogue, asm: ARPG.Modules.Dialogue}
+      data:
+        guid: e266ae08-ae84-4e70-ba77-11e9ba0abf71
+        position: {x: 1113.6, y: 200}
+        nodeName: 
+    - rid: 954093567857131587
+      type: {class: ChoiceNodeData, ns: ARPG.Data.Dialogue, asm: ARPG.Modules.Dialogue}
+      data:
+        guid: 4493eaea-3f0a-405e-9939-c9fea8d7519d
+        position: {x: 724.8, y: 200}
+        nodeName: 
+        choices:
+        - text: "\u9009\u9879 1"
+          targetNodeId: e266ae08-ae84-4e70-ba77-11e9ba0abf71
+        - text: "\u9009\u9879 2"
+          targetNodeId: b3639819-e7ac-4bbe-b9cd-e2ef7232e37e
+    - rid: 954093567857131588
+      type: {class: EventNodeData, ns: ARPG.Data.Dialogue, asm: ARPG.Modules.Dialogue}
+      data:
+        guid: b3639819-e7ac-4bbe-b9cd-e2ef7232e37e
+        position: {x: 1113.6, y: 387.2}
+        nodeName: 
+        eventTypeName: 
+        jsonParameters: 

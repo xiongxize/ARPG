@@ -1,0 +1,20 @@
+{
+    "name": "ARPG.Modules.Dialogue.Editor",
+    "rootNamespace": "ARPG.Modules.Dialogue.Editor",
+    "references": [
+        "ARPG.Modules.Dialogue",
+        "ARPG.Core",
+        "ARPG.Events",
+        "Sirenix.OdinInspector.Attributes",
+        "Sirenix.OdinInspector.Editor"
+    ],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
